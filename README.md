@@ -1,5 +1,5 @@
 #### js算法
- * 1 [递归]()
+ * 1 递归
  
  
 ###### 递归
@@ -9,7 +9,7 @@
    即 ==》 堆改变 则 this 改变 
         ==》 obj 改变
    那么我们要实现复制 obj 和 arr 就需要通过 copy 表层属性， 我们用递归算法来实现这个结果
- ```
+ ``` js
 function extend(obj,bool){  // bool 是否深度复制
   let news={},
       bool = bool || false;
